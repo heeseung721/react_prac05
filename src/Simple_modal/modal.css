@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+}
+
+.back {
+  background-image: url("https://cdn.pixabay.com/photo/2023/02/04/09/20/castle-7766794_960_720.jpg");
+  background-size: cover;
+}
+
+.h1 {
+  margin: 100px 0 100px 0;
+  color: white;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+dialog {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
+  border: 0;
+  text-align: center;
+  border-radius: 20px;
+  width: 500px;
+  height: 110px;
+  background-color: white;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.btnShow {
+  width: 180px;
+  height: 50px;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+  gap: 10px;
+}
